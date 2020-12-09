@@ -26,5 +26,36 @@ namespace UnitTestsForAlgoTests
             //Assert
             Assert.IsTrue(expectedAnswer.SequenceEqual(actualAnswer));
         }
+
+        [Test]
+        public void NKSubstrings_Test()
+        {
+            //Arrange
+            var n = new NKSubstrings();
+            int n1 = 120;
+            int k1 = 2;
+            int expected1 = 2;
+
+            int n2 = 555;
+            int k2 = 1;
+            int expected2 = 1;
+
+            int n3 = 5341;
+            int k3 = 2;
+            int expected3 = 0;
+
+
+            //Act
+            int actual1 = n.divisorSubstrings(n1, k1);
+            int actual2 = n.divisorSubstrings(n2, k2);
+            int actual3 = n.divisorSubstrings(n3, k3);
+
+            //Assert
+            Assert.AreEqual(expected1, actual1);
+            Assert.AreEqual(expected2, actual2);
+            Assert.AreEqual(expected3, actual3);
+        }
+
+
     }
 }
