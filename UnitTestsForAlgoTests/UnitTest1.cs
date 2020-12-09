@@ -56,6 +56,33 @@ namespace UnitTestsForAlgoTests
             Assert.AreEqual(expected3, actual3);
         }
 
+        [Test]
+        public void justifyNewspaperText_Test()
+        {
+            //Arrange
+            var j = new JustifyNewspaper();
+            string[][] lines = new string[][] {
+                new string[] {"hello", "world" },
+                new string[]{"How", "areYou", "doing" },
+                new string[]{"Please look", "and align", "to right" } };
+            string[] aligns = new string[] { "LEFT", "RIGHT", "RIGHT" };
+            int width = 16;
+            var expected = new string[] {
+                "******************",
+                "*hello world     *",
+                "*How areYou doing*",
+                "*     Please look*",
+                "*       and align*",
+                "*        to right*",
+                "******************"
+            };
+
+            //Act
+            var actual = j.justifyNewspaperText(lines, aligns, width);
+
+            //Assert
+            Assert.IsTrue(expected.SequenceEqual(actual));
+        }
 
     }
 }
