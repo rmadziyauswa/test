@@ -84,5 +84,37 @@ namespace UnitTestsForAlgoTests
             Assert.IsTrue(expected.SequenceEqual(actual));
         }
 
+        [Test]
+        public void RectangleOperations_Test()
+        {
+            //Arrange
+            var r = new RectangleOperations();
+            var operations1 = new int[][]
+                {
+                    new int[]{1,1,1}
+                };
+            var expected1 = new bool[] { true };
+
+            var operations2 = new int[][]
+              {
+                    new int[]{0, 1, 3},
+                    new int[]{0, 4, 2},
+                    new int[]{1, 3, 4},
+                    new int[]{ 1, 3, 2 }
+              };
+            var expected2 = new bool[] { true,false };
+
+
+
+            //Act
+            var actual1 = r.rectangleBoxes(operations1);
+            var actual2 = r.rectangleBoxes(operations2);
+
+            //Assert
+            Assert.IsTrue(expected1.SequenceEqual(actual1));
+            Assert.IsTrue(expected2.SequenceEqual(actual2));
+
+        }
+
     }
 }

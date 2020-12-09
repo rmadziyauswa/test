@@ -1,8 +1,11 @@
 ﻿<Properties StartupConfiguration="{C7C9787B-6EB0-47C4-A36C-6C0A2A83CD90}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="AlgoTestsInterview/JustifyNewspaper.cs">
     <Files>
-      <File FileName="UnitTestsForAlgoTests/UnitTest1.cs" Line="51" Column="1" />
-      <File FileName="AlgoTestsInterview/JustifyNewspaper.cs" Line="6" Column="1" />
+      <File FileName="UnitTestsForAlgoTests/UnitTest1.cs" Line="106" Column="1" />
+      <File FileName="AlgoTestsInterview/RectangleOperations.cs" Line="11" Column="43" />
+      <File FileName="AlgoTestsInterview/PythagoreanTripple.cs" Line="1" Column="1" />
+      <File FileName="AlgoTestsInterview/NKSubstrings.cs" Line="1" Column="1" />
+      <File FileName="AlgoTestsInterview/JustifyNewspaper.cs" Line="21" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -27,7 +30,8 @@
   <MonoDevelop.Ide.ItemProperties.UnitTestsForAlgoTests PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/reni/crossoverFiles/test/AlgoTestsInterview/UnitTestsForAlgoTests/UnitTest1.cs" relfile="UnitTestsForAlgoTests/UnitTest1.cs" line="49" column="1" />
+      <Breakpoint file="/Users/reni/crossoverFiles/test/AlgoTestsInterview/UnitTestsForAlgoTests/UnitTest1.cs" relfile="UnitTestsForAlgoTests/UnitTest1.cs" line="114" column="1" />
+      <Breakpoint file="/Users/reni/crossoverFiles/test/AlgoTestsInterview/UnitTestsForAlgoTests/UnitTest1.cs" relfile="UnitTestsForAlgoTests/UnitTest1.cs" line="110" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
