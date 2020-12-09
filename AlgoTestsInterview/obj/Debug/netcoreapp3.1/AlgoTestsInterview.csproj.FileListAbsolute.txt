@@ -1,0 +1,9 @@
+/Users/reni/crossoverFiles/test/AlgoTestsInterview/AlgoTestsInterview/bin/Debug/netcoreapp3.1/AlgoTestsInterview.deps.json
+/Users/reni/crossoverFiles/test/AlgoTestsInterview/AlgoTestsInterview/bin/Debug/netcoreapp3.1/AlgoTestsInterview.dll
+/Users/reni/crossoverFiles/test/AlgoTestsInterview/AlgoTestsInterview/bin/Debug/netcoreapp3.1/AlgoTestsInterview.pdb
+/Users/reni/crossoverFiles/test/AlgoTestsInterview/AlgoTestsInterview/obj/Debug/netcoreapp3.1/AlgoTestsInterview.csprojAssemblyReference.cache
+/Users/reni/crossoverFiles/test/AlgoTestsInterview/AlgoTestsInterview/obj/Debug/netcoreapp3.1/AlgoTestsInterview.AssemblyInfoInputs.cache
+/Users/reni/crossoverFiles/test/AlgoTestsInterview/AlgoTestsInterview/obj/Debug/netcoreapp3.1/AlgoTestsInterview.AssemblyInfo.cs
+/Users/reni/crossoverFiles/test/AlgoTestsInterview/AlgoTestsInterview/obj/Debug/netcoreapp3.1/AlgoTestsInterview.csproj.CoreCompileInputs.cache
+/Users/reni/crossoverFiles/test/AlgoTestsInterview/AlgoTestsInterview/obj/Debug/netcoreapp3.1/AlgoTestsInterview.dll
+/Users/reni/crossoverFiles/test/AlgoTestsInterview/AlgoTestsInterview/obj/Debug/netcoreapp3.1/AlgoTestsInterview.pdb
